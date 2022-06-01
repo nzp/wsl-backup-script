@@ -1,0 +1,5 @@
+Shell script for “backing up” (really, just transfering to Windows side for
+further backup) the contents of a WSL home directory.  It's based on the method
+explained here[1], greatly simplified in accordance to my current needs.
+
+[1] https://stephenreescarter.net/automatic-backups-for-wsl2/
