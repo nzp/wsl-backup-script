@@ -31,7 +31,7 @@ LOGFILE=/mnt/c/Users/$WINDOWS_USER/wsl-backup/$WSL_DISTRO_NAME.log
 DEST_DIR=/mnt/c/Users/$WINDOWS_USER/wsl-backup/$WSL_DISTRO_NAME/
 SRC_DIR=/home/$UNIX_USER/
 
-EXCLUDE_ITEMS=".vscode-server/,.docker/,.cache/"
+EXCLUDE_ITEMS=".vscode-server/,.docker/,.cache/,.dotnet/,.java/,.local/,.npm/,.nuget/,.omnisharp/,.sage/,.templateengine/,.texlive2020/,.texlive2022/"
 EXCLUDE_FILE=/tmp/wsl-backup-exclues
 
 {
